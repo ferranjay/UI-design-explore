@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-size: .8em;
+    line-height: 1.6em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-image {
+    background: url(/images/hero.svg);
+    height: 210px;
+    margin: 0;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+    padding: .8em 1.2em;
+}
+
+.logo {
+    width: 130px;
+}
+
+.hide-mobile {
+    display: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    width: 25px;
+    margin-top: 45%;
+}
+
+h4 {
+    position: relative;
+    z-index: 3;
+    color: white;
+    text-shadow: 1px 1px 5px gold;
+    margin-bottom: 0px;
+}
+
+.countdown {
+    text-align: center;
+    margin-top: 40px;
+    padding: .6em 1.2em;
+    font-size: .9em;
+    font-weight: bold;
+}
+
+.main {
+    width: 100%;
+    padding: 1em 0 2em;
+}
+
+.main h4 {
+    color: black;
+    text-shadow: none;
+}
+
+.main img {
+    height: 140px;
+    width: 300px;
+    border-radius: 200px;
+}
+
+.main p {
+    padding-bottom: 40px;
+}
+
