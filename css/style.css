@@ -171,11 +171,22 @@ nav ul li a:hover {
     }
 
     .main {
-        display: flex;
+        display:inline-block;
+    }
+
+
+    .main ul {
+        align-items: center;
+        padding: 10px;
+        margin-bottom: 50px;
+        margin-left: 100px;
     }
 
     .main ul li {
         float: left;
+        padding: 10px;
+        width: 300px;
+        margin-left: 120px;  /* needs to be adjusted for responsive layout */
     }
 
     .main img {
@@ -188,18 +199,8 @@ nav ul li a:hover {
         font-size: 20px;
     }
 
-    .main ul {
-        align-items: center;
-        padding: 10px;
-        margin-bottom: 50px;
-        float: left;
-        width: 30%; 
-    }
-
     .main ul p {
         padding: 0;
     }
-
-    
 
 }
