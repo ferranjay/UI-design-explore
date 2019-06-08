@@ -1,5 +1,5 @@
 # UI-design-explore
-UI (User Interface) project 01 : Adobe XD, HTML, CSS &amp; Javascript.
+UI (User Interface) project: Adobe XD, HTML, CSS &amp; Javascript.
 
 Building a modern website from scratch.
 
